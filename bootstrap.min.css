@@ -1,0 +1,21 @@
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+#timer{margin:0 auto 20px auto;width:80px;text-align:center}
+.pietimer{position:relative;font-size:200px;width:1em;height:1em}
+.pietimer &gt; .percent{position:absolute;top:25px;left:12px;width:3.33em;font-size:18px;text-align:center;display:none}
+.pietimer &gt; .slice{position:absolute;width:1em;height:1em;clip:rect(0px,1em,1em,0.5em)}
+.pietimer &gt; .slice.gt50{clip:rect(auto,auto,auto,auto)}
+.pietimer &gt; .slice &gt; .pie{border:0.1em solid #c0c0c0;position:absolute;width:0.8em;/* 1 - (2 * border width) */height:0.8em;/* 1 - (2 * border width) */clip:rect(0em,0.5em,1em,0em);-moz-border-radius:0.5em;-webkit-border-radius:0.5em;border-radius:0.5em}
+.pietimer &gt; .slice &gt; .pie.fill{-moz-transform:rotate(180deg)!important;-webkit-transform:rotate(180deg)!important;-o-transform:rotate(180deg)!important;transform:rotate(180deg)!important}
+.pietimer.fill &gt; .percent{display:none}
+.pietimer.fill &gt; .slice &gt; .pie{border:transparent;background-color:#c0c0c0;width:1em;height:1em}
+#sidebarleft,#sidebarright {text-align:center}
+.text-center{text-align:center}.text-center button{background:#03a9f5;background-image:linear-gradient(110deg,transparent 75%,rgba(255,255,255,0.1) 75%,rgba(255,255,255,0.1) 81.5%,rgba(255,255,255,0.2) 81.5%,rgba(255,255,255,0.2));color:#fff;margin:0 auto 20px auto;border-radius:5px;text-align:center;padding:12px 22px;box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);transition:all 0.3s cubic-bezier(.25,.8,.25,1)}.text-center button:hover,.text-center button:active,.text-center button:focus{box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24)}.text-center button span{margin:0 5px 0 0}
+.panel-body{background:#fff;margin:0 auto;padding:25px;border-top:1px solid rgba(0,0,0,0.05)}
+.panel-body:before{display:none}
+.panel-heading h2{background:#fff;color:#222;margin:0 auto;font-weight:400;padding:15px;font-size:20px;text-align:center}
+/*# sourceMappingURL=bootstrap.min.css.map */
