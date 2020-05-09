@@ -4,6 +4,8 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+.hidden { visibility: hidden; height: 0px; overflow: hidden; display: none;}
 #timer{margin:0 auto 20px auto;width:80px;text-align:center}
 .pietimer{position:relative;font-size:200px;width:1em;height:1em}
 .pietimer &gt; .percent{position:absolute;top:25px;left:12px;width:3.33em;font-size:18px;text-align:center;display:none}
